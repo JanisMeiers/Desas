@@ -103,6 +103,7 @@ namespace TestProg
 
                 while (user_input_start == "y" || user_input_start == "yes" || user_input_start == "Yes" || user_input_start == "YES")
                 {
+		    Console.WriteLine("!!!!!Let's start!!!!!");
                     var t = new game_field();
                     t.print_field(field);
 
